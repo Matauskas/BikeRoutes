@@ -16,7 +16,7 @@
 	let allPoints = '';
 	let allPopups: tt.Popup[] = new Array(50);
 
-	const apiKey = '5zOoRjf2ubXpghwAWI0VqykIEWORa1mo';
+	const apiKey = '';
 
 	// Predefined start and destination locations
 	//let startInput = 'Vilnius, Lithuania';
