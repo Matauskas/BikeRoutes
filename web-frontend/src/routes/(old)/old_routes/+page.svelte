@@ -2,7 +2,7 @@
 	import { listUserRoutes, loggedInUserId, saveRouteData } from '$lib/store';
 	import { goto } from '$app/navigation';
 
-	const apiKey = 'GwdctTYBnXKj1P4RGPRABBIlMDwdCpMu';
+	const apiKey = '';
 	const maxRetries = 5;
 
 	async function reverseGeocodeWithRetry(coordinate: [any, any], retries: number = 0) {
