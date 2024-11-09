@@ -28,7 +28,7 @@
 	let errorMessage = '';
 	let friendRoutesForId: any[] = [];
 	const maxRetries = 5;
-	const apiKey = 'GwdctTYBnXKj1P4RGPRABBIlMDwdCpMu';
+	const apiKey = '';
 
 	async function showFriendRoutes(friendId: Id) {
 		try {
