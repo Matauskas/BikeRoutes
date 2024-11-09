@@ -1,0 +1,6 @@
+[submodule "deploy-to-server/libs/mbedtls/mbedtls"]
+	path = deploy-to-server/libs/mbedtls/mbedtls
+	url = https://github.com/ARMmbed/mbedtls.git
+[submodule "deploy-to-server/libs/libssh2/libssh2"]
+	path = deploy-to-server/libs/libssh2/libssh2
+	url = https://github.com/libssh2/libssh2.git

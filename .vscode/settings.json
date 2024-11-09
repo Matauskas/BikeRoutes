@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "[zig]": {
+    "editor.formatOnSave": false
+  },
+  "dotnet.defaultSolution": "web-backend/web-backend.sln"
+}

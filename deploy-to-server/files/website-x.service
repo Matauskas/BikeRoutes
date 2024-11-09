@@ -1,0 +1,13 @@
+[Unit]
+Description=Komanda X tinklalapis
+After=network.target
+
+[Service]
+WorkingDirectory=/home/komanda-x/website
+ExecStart=/run/current-system/sw/bin/nix-shell /home/komanda-x/website/start.nix
+Restart=always
+RemainAfterExit=yes
+TimeoutSec=infinity
+
+[Install]
+WantedBy=multi-user.target
